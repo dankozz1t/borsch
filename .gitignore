@@ -1,3 +1,14 @@
+# Nuxt dev/build outputs
+.output
+.data
+.nitro
+
+# Misc
+.DS_Store
+.fleet
+.idea
+
+
 # Logs
 logs
 *.log
