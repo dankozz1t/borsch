@@ -6,7 +6,7 @@ definePageMeta({
 
 <template>
   <div>
-    <h2>main page</h2>
+    <h2>recipes page</h2>
   </div>
 </template>
 

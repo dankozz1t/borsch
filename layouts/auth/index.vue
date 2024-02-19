@@ -2,6 +2,7 @@
 
 <template>
   <main>
+    <h1>auth layout</h1>
     <NuxtPage />
   </main>
 </template>
