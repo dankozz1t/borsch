@@ -1,0 +1,17 @@
+@import 'normalize-scss';
+@include normalize();
+
+@import 'reset';
+
+@import 'utils/mixin-font-size';
+
+@import 'variables';
+@import 'fonts';
+
+body {
+  font-family: var(--main-font);
+  font-size: var(--font-size);
+
+  color: var(--text-black-color);
+  background-color: var(--bg-white-color);
+}
