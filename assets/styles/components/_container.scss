@@ -1,0 +1,42 @@
+// .container {
+//   margin: 0 auto;
+//   width: 100%;
+
+//   @include media(mobile-only) {
+//     padding-left: 20px;
+//     padding-right: 20px;
+//     max-width: 320px;
+//   }
+
+//   @include media(tablet) {
+//     padding-left: 32px;
+//     padding-right: 32px;
+//     width: 768px;
+//   }
+
+//   @include media(desktop) {
+//     width: 1280px;
+//   }
+// }
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+
+  @include media(mobile-only) {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    max-width: $mobile;
+  }
+
+  @include media(tablet) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: $tablet;
+  }
+
+  @include media(desktop) {
+    // width: $desktop;
+    width: 100%;
+  }
+}

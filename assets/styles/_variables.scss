@@ -1,18 +1,26 @@
 :root {
   /* font */
   --main-font: 'Montserrat', sans-serif;
-  --font-size: 16px;
-  --line-height: 16px;
+  --font-size: 1rem;
+  --line-height: 1rem;
 
   /* Text Colors */
   --text-black-color: #2b2a2a;
   --text-white-color: #ffffff;
   --text-first-accent-color: #267696;
+  --text-second-accent-color: #0087ca;
 
   /* Background Color */
   --bg-black-color: #2b2a2a;
   --bg-white-color: #ffffff;
   --bg-first-accent-color: #267696;
+  --bg-second-accent-color: #0087ca;
 
+  /* Transition */
+  --transition-cubic: cubic-bezier(0.4, 0, 0.2, 1);
   --transition-time: 250ms;
 }
+
+$mobile: 320px;
+$tablet: 768px;
+$desktop: 1280px;

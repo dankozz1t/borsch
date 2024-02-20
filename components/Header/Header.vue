@@ -1,53 +1,50 @@
 <script setup lang="ts">
-// ..
+import FullLogo from '@/components/FullLogo/FullLogo.vue';
 </script>
 
 <template>
   <div class="header">
-    <NuxtLink to="/">
-      <img class="header__logo" src="/assets/images/logo.jpg" alt="turnip and borscht text" />
-    </NuxtLink>
+    <div class="container header__container">
+      <FullLogo />
 
-    <div>
-      <input type="text" placeholder="search..." />
-      <button type="button">0-</button>
-    </div>
-
-    <nav class="header__nav">
-      <NuxtLink to="/recipes"> recipes </NuxtLink>
-
-      <div class="header__auth">
-        <button type="button">login</button>
-        <button type="button">register</button>
+      <div>
+        <input type="text" placeholder="search..." />
+        <button type="button">0-</button>
       </div>
-    </nav>
+
+      <nav class="header__nav">
+        <NuxtLink to="/recipes"> recipes </NuxtLink>
+
+        <div class="header__auth">
+          <button type="button">login</button>
+          <button type="button">register</button>
+        </div>
+      </nav>
+    </div>
   </div>
 </template>
 
 <style scoped lang="scss">
 .header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 12px 24px;
-
   color: var(--text-white-color);
   background-color: var(--bg-first-accent-color);
 }
 
-.header__logo {
-  max-height: 45px;
-  width: 150px;
-  object-fit: cover;
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .header__nav {
   display: flex;
-  gap: 50px;
+  gap: 3.125rem;
 }
 
 .header__auth {
   display: flex;
-  gap: 12px;
+  gap: 0.75rem;
 }
 </style>
