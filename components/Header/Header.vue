@@ -14,6 +14,7 @@ import FullLogo from '@/components/FullLogo/FullLogo.vue';
 
       <nav class="header__nav">
         <NuxtLink to="/recipes"> recipes </NuxtLink>
+        <NuxtLink to="/ui"> ui (for developers) </NuxtLink>
 
         <div class="header__auth">
           <button type="button">login</button>

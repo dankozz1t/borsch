@@ -6,7 +6,6 @@ import Header from '@/components/Header/Header.vue';
   <main>
     <Header />
 
-    <h1>default layout</h1>
     <NuxtPage />
   </main>
 </template>
